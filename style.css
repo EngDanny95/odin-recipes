@@ -1,26 +1,50 @@
+*{
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+
+body{
+    background-color: lightyellow;
+}
+
+.home li{
+    font-size: 30px;
+    margin: 50px;
+}
+
+.spicy, .potato, .jap{
+    width: 1000px;
+    margin: 50px auto;
+    background-color: white;
+    border: 1px solid;
+}
+
+.spicybody, .potatobody, .japbody{
+    width: 580px;
+    padding: 5px;
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+}
+
 h1{
+    font-size: 50px;
     text-align: center;
-    font-size: 60px;
+}
+
+h1,h2,h3 {
     color: brown;
 }
 
 h2, h3{
     font-size: 30px;
-    text-decoration: underline;
-}
-
-p, li{
-    color: firebrick;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 150%;
 }
 
 img{
-    width: auto;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
 }
